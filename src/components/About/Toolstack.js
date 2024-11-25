@@ -4,8 +4,6 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiMacos,
   SiWindows,
   SiTailwindcss,
 } from "react-icons/si";

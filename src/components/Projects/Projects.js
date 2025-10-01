@@ -7,6 +7,8 @@ import ecom from "../../Assets/Projects/pp1.png";
 import synDev from "../../Assets/Projects/pp2.png";
 import fyp from "../../Assets/Projects/fypBanner.png";
 import todo from "../../Assets/Projects/todo.png";
+import sintraClone from "../../Assets/Projects/sintraClone.png";
+import pl from "../../Assets/Projects/passLock.png";
 
 function Projects() {
   return (
@@ -19,11 +21,26 @@ function Projects() {
         <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+            <ProjectCard imgPath={fyp} isBlog={false} title="Ball e Baaz – Final Year Project" description="Developed a comprehensive cricket management platform that allows players and clubs to manage matches, book grounds and umpires, track player statistics, and view personalized performance highlights. Incorporating an AI-powered Decision Review System (DRS) for decision validation using video analysis and ball tracking." demoLink="https://www.linkedin.com/posts/sanaullah-momin-71b774309_ballebaaz-crickettech-sportstechnology-activity-7323045781500846081-6GXd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEQrgXgBsAp4usNs_wZTaCYTl51Yvi0uzj8" ghLink="" />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard imgPath={ecom} isBlog={false} title="Tech Vault – Ecommerce Website" description="Developed a full-stack end-to-end e-commerce website using the MERN stack. Implemented secure user authentication and a real-time inventory management. Integrated comprehensive shipping functionalities for efficient order fulfillment and logistics. Also designed a dynamic product catalog and streamlined user interface." ghLink="https://github.com/ibrahimsqb/Ecommerce-Store" />
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard imgPath={fyp} isBlog={false} title="Ball e Baaz – Final Year Project" description="Developed a comprehensive cricket management platform that allows players and clubs to manage matches, book grounds and umpires, track player statistics, and view personalized performance highlights. Incorporating an AI-powered Decision Review System (DRS) for decision validation using video analysis and ball tracking." demoLink="https://www.linkedin.com/posts/sanaullah-momin-71b774309_ballebaaz-crickettech-sportstechnology-activity-7323045781500846081-6GXd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEQrgXgBsAp4usNs_wZTaCYTl51Yvi0uzj8" ghLink="" />
+            <ProjectCard
+              imgPath={pl}
+              isBlog={false}
+              title="PassLock – Password Manager"
+              description="PassLock is a simple and secure password manager built with React, Tailwind CSS, designed to keep your credentials organized in one place. It features an easy-to-use, responsive interface where you can add, edit, copy, and delete passwords, with data stored locally for quick access and reliability."
+              ghLink="https://github.com/ibrahimsqb/passLock-LS"
+              demoLink="https://passlock7.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard imgPath={sintraClone} isBlog={false} title="Abc Ai – SintraAI Clone" description="Developed a Sintra AI website clone for a client using React and Tailwind CSS, replicating UI/UX features and ensuring responsive, modern design." ghLink="" demoLink="https://abcai7.netlify.app/" />
           </Col>
 
           <Col md={4} className="project-card">
